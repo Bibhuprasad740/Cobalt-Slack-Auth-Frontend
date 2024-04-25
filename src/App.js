@@ -1,7 +1,7 @@
 import axios from "axios";
 import classes from "./App.module.css";
 import { useState } from "react";
-const BASE_URL = "http://localhost:8080/oauth/signin";
+const BASE_URL = "https://cobalt-slack-auth.onrender.com/oauth/signin";
 
 function App() {
   const [isAuthorized, setIsAuthorized] = useState(false);
